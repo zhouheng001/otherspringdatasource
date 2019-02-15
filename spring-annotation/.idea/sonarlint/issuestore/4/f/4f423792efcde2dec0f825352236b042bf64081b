@@ -1,0 +1,10 @@
+
+¤%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(·γ
+¤%squid:RedundantThrowsDeclarationCheck"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(ΚϊΩ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ώ¦Μ“ϊÿÿÿÿ
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(—τμ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(“σ΄όÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» ζÿÿÿÿÿ
