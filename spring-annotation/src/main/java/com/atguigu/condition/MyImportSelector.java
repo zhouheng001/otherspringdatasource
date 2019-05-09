@@ -1,5 +1,6 @@
 package com.atguigu.condition;
 
+import com.atguigu.bean.Blue;
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 
@@ -12,7 +13,7 @@ public class MyImportSelector implements ImportSelector {
 		// TODO Auto-generated method stub
 		//importingClassMetadata
 		//方法不要返回null值
-		return new String[]{"com.atguigu.bean.Blue","com.atguigu.bean.Yellow"};
+		return new String[]{Blue.class.getName(),"com.atguigu.bean.Yellow"};
 	}
 
 }

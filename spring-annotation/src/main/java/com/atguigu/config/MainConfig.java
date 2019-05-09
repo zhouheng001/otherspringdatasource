@@ -1,5 +1,6 @@
 package com.atguigu.config;
 
+import com.atguigu.condition.MyTypeFilter;
 import com.atguigu.service.BookService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -29,7 +30,7 @@ import org.springframework.stereotype.Controller;
 //		@Filter(type=FilterType.CUSTOM,classes={MyTypeFilter.class})
 //},useDefaultFilters = false)
 //@ComponentScan  value:指定要扫描的包
-//excludeFilters = Filter[] ：指定扫描的时候按照什么规则排除那些组件
+//excludeFilters = Filter[] ：指定扫描的  时候按照什么规则排除那些组件
 //includeFilters = Filter[] ：指定扫描的时候只需要包含哪些组件
 //FilterType.ANNOTATION：按照注解
 //FilterType.ASSIGNABLE_TYPE：按照给定的类型；
